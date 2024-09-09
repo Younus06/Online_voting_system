@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Vote for Your Favorite Candidate</h1>
+    <form action="vote.php" method="POST">
+        <label for="candidate">Choose a candidate:</label>
+        <select name="candidate" id="candidate">
+            <option value="Candidate1">Candidate 1</option>
+            <option value="Candidate2">Candidate 2</option>
+            <option value="Candidate3">Candidate 3</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit Vote</button>
+    </form>
+</body>
+</html>
